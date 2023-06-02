@@ -3,8 +3,10 @@ import { FlatList, StyleSheet, Text, View } from 'react-native';
 import Header from './src/components/header';
 import Search from './src/components/searchBar';
 import Banner from './src/components/bannerMovies';
-import Filmes from './src/data/filmes'
+import Filmes from './src/data/filmes';
+import Series from './src/data/series';
 import CardFilmes from './src/components/cardFilmes';
+import CardSeries from './src/components/cardSeries';
 
 
 
@@ -14,6 +16,7 @@ export default function App() {
       <Header></Header>
       <Search></Search>
       <Banner></Banner>
+     
 
     <View style={{width:'90%'}}>
     <FlatList 
@@ -32,7 +35,35 @@ export default function App() {
       >
      </CardFilmes>
 
+      
+
       )} 
+
+      
+      
+    />
+
+<FlatList 
+    showsHorizontalScrollIndicator = {false}
+    horizontal ={true}
+    data ={Series} 
+    keyExtractor = {(item) => item.id}
+    renderItem = { ({item})  =>(
+
+     <CardSeries
+
+      titulo = {item.nome}
+      imagem = {item.imagem}
+      nota = {item.nota}
+      
+      >
+     </CardSeries>
+
+      
+
+      )} 
+
+      
       
     />
 </View>
