@@ -8,7 +8,7 @@ export default function Search(){
     return(
           <View  style = {styles.containerSearch}>
               <TextInput
-               placeholder="Digite o filme desejado"
+               placeholder="Digite o livro desejado"
                style = {styles.inputSearch}
                >
                    

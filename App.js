@@ -30,7 +30,10 @@ export default function App() {
 
       titulo = {item.nome}
       imagem = {item.imagem}
-      nota = {item.nota}
+      preco = {item.preco}
+      autor = {item.autor}
+      editora = {item.editora}
+      quantidade = {item.quantidade}
       
       >
      </CardFilmes>
@@ -55,6 +58,10 @@ export default function App() {
       titulo = {item.nome}
       imagem = {item.imagem}
       nota = {item.nota}
+      // preco = {item.preco}
+      // autor = {item.autor}
+      // editora = {item.editora}
+      // quantidade = {item.quantidade}
       
       >
      </CardSeries>
@@ -75,7 +82,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#141A29',
+    backgroundColor: '#e0c7aa',
     alignItems: 'center',
     
   },

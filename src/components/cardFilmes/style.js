@@ -13,10 +13,11 @@ const styles = StyleSheet.create({
         fontSize:12,
         paddingTop:8
     },
-    textNota:{
-        fontSize:10,
-        color:'#fff',
-        paddingLeft:4
+    textpreco:{
+        fontSize:20,
+        color:'#black',
+        paddingLeft:4,
+        backgroundColor:'white'
     },
     images:{
         widht:'100%',

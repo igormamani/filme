@@ -9,8 +9,8 @@ export default function bannerMovies () {
     return (
              <>
              
-             <Text style = {styles.textBanner}>Em cartaz</Text>
-             <Image style = {styles.imageBanner}source = {require(`../../Img/${imagem}.jpg`)}/>
+             <Text style = {styles.textBanner}>Livros em Alta</Text>
+             <Image style = {styles.imageBanner}source = {require(`../../Img/banner.PNG`)}/>
              </>   
 
     );
