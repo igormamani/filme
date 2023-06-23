@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     },
     textHeader:{
         fontSize:25,
-        color:'black',
+        color:'white',
         fontWeight:'bold',
         marginRight:50
     }

@@ -31,9 +31,9 @@ export default function App() {
       titulo = {item.nome}
       imagem = {item.imagem}
       preco = {item.preco}
-      autor = {item.autor}
-      editora = {item.editora}
-      quantidade = {item.quantidade}
+      // autor = {item.autor}
+      // editora = {item.editora}
+      // quantidade = {item.quantidade}
       
       >
      </CardFilmes>
@@ -82,7 +82,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e0c7aa',
+    backgroundColor: '#141A29',
     alignItems: 'center',
     
   },

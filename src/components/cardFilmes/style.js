@@ -14,10 +14,9 @@ const styles = StyleSheet.create({
         paddingTop:8
     },
     textpreco:{
-        fontSize:20,
-        color:'#black',
-        paddingLeft:4,
-        backgroundColor:'white'
+        fontSize:10,
+        color:'#fff',
+        paddingLeft:4
     },
     images:{
         widht:'100%',
