@@ -2,26 +2,34 @@ import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
 
-    containerJogos:{
-        paddingTop:20,
-        paddingBottom:16,
-        paddingRight:16,
-        width:140,
+
+    til:{
+        // borderWidth: 3,
+        // borderColor: 'white',
+        alignItems:'center',
+        widht:'100%',
+        height:50,
+        // paddingBottom:20
+    },
+    pont:{
+        // borderWidth: 3,
+        // borderColor: 'white',
+        flexDirection:'row'
     },
     titulo:{
         color:'#fff',
-        fontSize:12,
-        paddingTop:8
+        fontSize:25,
+        paddingTop:3
     },
     textpreco:{
-        fontSize:10,
+        fontSize:15,
         color:'#fff',
-        paddingLeft:4
+        paddingLeft:50,
     },
     images:{
-        widht:'95%',
-        height:400,
-        borderRadius:40
+        width:'100%',
+        height:350,
+        borderRadius:40,
     },
 
     container: {
@@ -31,18 +39,37 @@ const styles = StyleSheet.create({
         
     },
     myStarStyle: {
+        fontSize:22,
         color: 'yellow',
         backgroundColor: 'transparent',
         textShadowColor: 'black',
-        textShadowOffset: {width: 1, height: 1},
+        textShadowOffset: {width: 5, height: 5},
         textShadowRadius: 2,
       },
       myEmptyStarStyle: {
         color: 'white',
+        fontSize:22,
+
+      },
+      desc:{
+        // borderWidth: 3,
+        // borderColor: 'white',
+        width:'100%',
+        height:70,
+      },
+      sinopse:{
+        color:'#fff',
+        fontSize:25,
+        paddingTop:3,
+        marginLeft:30,
+        marginTop:10
+      },
+      descfilme:{
+        // borderWidth: 3,
+        // borderColor: 'white',
+        width:'100%',
+        height:400
       }
-
-
-
 
 })
 
